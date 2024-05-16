@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,13 +7,13 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
+            background-color: #f8f8ff; /* off white */
             color: #333;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #87CEEB; /* light blue */
             color: white;
             padding: 1em 0;
             text-align: center;
@@ -23,7 +21,7 @@
         nav {
             display: flex;
             justify-content: center;
-            background-color: #333;
+            background-color: #4682B4; /* darker blue */
         }
         nav a {
             color: white;
@@ -32,7 +30,7 @@
             text-align: center;
         }
         nav a:hover {
-            background-color: #ddd;
+            background-color: #add8e6; /* light blue hover */
             color: black;
         }
         .container {
@@ -52,6 +50,12 @@
             width: 100%;
             bottom: 0;
         }
+        .profile {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
     </style>
 </head>
 <body>
@@ -61,6 +65,7 @@
     </header>
     <nav>
         <a href="#about">About Us</a>
+        <a href="team.html">Meet the Team</a>
         <a href="#services">Our Services</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
@@ -68,29 +73,33 @@
     <div class="container">
         <section id="about" class="section">
             <h2>About Us</h2>
-            <p>BrightFuture Education Initiative is dedicated to bridging the gap in education inequality. Our mission is to ensure that every child, regardless of their background, has access to high-quality educational resources and opportunities. We believe that education is a fundamental right and a crucial element in breaking the cycle of poverty.</p>
+            <p>BrightFuture Education Initiative is dedicated to bridging the gap in education inequality. Studies have shown that access to quality early childhood education significantly impacts a child's future success. Unfortunately, many underprivileged children lack access to affordable or free daycare and preschool programs, putting them at a disadvantage from an early age.</p>
+            <p>We aim to address this issue by advocating for and supporting initiatives that provide free or affordable daycare and preschool services to underprivileged communities. By giving children a strong educational foundation, we believe we can help level the playing field and give every child the opportunity to succeed.</p>
+            <p>One such organization making a difference is St. Vincent's Day Home in Oakland, which has been providing high-quality early childhood education and childcare services to low-income families for over 110 years.</p>
         </section>
         <section id="services" class="section">
             <h2>Our Services</h2>
+            <p>We offer a range of services to support our mission:</p>
             <ul>
-                <li>Providing scholarships and financial aid to underprivileged students</li>
-                <li>Offering tutoring and mentorship programs</li>
-                <li>Supplying educational materials and technology</li>
-                <li>Organizing workshops and educational events</li>
+                <li>Advocacy for affordable daycare and preschool programs</li>
+                <li>Partnerships with existing organizations to expand access to education</li>
+                <li>Community outreach and awareness programs</li>
+                <li>Providing scholarships and financial aid to students</li>
+                <li>Mentorship and tutoring programs</li>
             </ul>
         </section>
         <section id="projects" class="section">
             <h2>Projects</h2>
-            <p>We have several ongoing projects aimed at improving educational access and quality:</p>
+            <p>We are actively involved in various projects aimed at improving educational access and quality:</p>
             <ul>
-                <li><strong>Project Learn:</strong> A nationwide tutoring program for students in need.</li>
-                <li><strong>Tech for Kids:</strong> Providing laptops and internet access to children in remote areas.</li>
-                <li><strong>Reading Corner:</strong> Establishing libraries in underserved communities.</li>
+                <li><strong>Project Learn:</strong> A tutoring and mentorship program for students in underprivileged communities.</li>
+                <li><strong>Tech for Kids:</strong> Providing access to technology resources for remote learning.</li>
+                <li><strong>Reading Initiative:</strong> Promoting literacy through book donations and reading programs.</li>
             </ul>
         </section>
         <section id="contact" class="section">
             <h2>Contact Us</h2>
-            <p>If you are interested in learning more about our organization or want to get involved, please reach out to us!</p>
+            <p>If you're interested in learning more about our organization or want to get involved, please reach out to us!</p>
             <form>
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" required><br>
